@@ -1,1 +1,5 @@
-<p>hello</p>
+<ul>
+  <% for book in @books['books'] %>
+  <li class="book-list-item"><%= book['title'] %> published by <%= book['publisher'] %> on <%= book['date'] %></li>
+  <% end %>
+</ul>
