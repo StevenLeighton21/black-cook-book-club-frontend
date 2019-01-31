@@ -1,9 +1,9 @@
-<div>
+<div class="container-fluid">
   <% for book in @books['books'] %>
-    <div class="book-list-item">
-      <div><%= book['title'] %></div>
-      <div>Publisher <%= book['publisher'] %></div>
-      <div>Date of Publication <%= book['year'] %></div>
+    <div class="book-list-item row">
+      <div class="col-sm"><%= book['title'] %></div>
+      <div class="col-sm">Publisher <%= book['publisher'] %></div>
+      <div class="col-sm">Date of Publication <%= book['year'] %></div>
     </div>
   <% end %>
 </div>
