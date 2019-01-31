@@ -10,6 +10,10 @@
   </head>
 
   <body>
-    <%= yield %>
-  </body>
+    <%= render "layouts/header" %>
+    <div class="content container-fluid">
+      <%=yield %>
+    </div>
+    <%= render "layouts/footer" %>
+   </body>
 </html>
