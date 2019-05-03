@@ -7,6 +7,18 @@ ul {
   }
 }
 
+.book-cel {
+  margin: 10px 20px 10px 20px;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .type {
+    color: grey;
+  }
+}
+
 .container-fluid {
-  height: 600px;
+  height: 100%;
 }
