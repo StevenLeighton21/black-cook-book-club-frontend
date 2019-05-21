@@ -1,5 +1,18 @@
-<ul>
-  <% for book in @books['books'] %>
-  <li class="book-list-item"><%= book['title'] %> published by <%= book['publisher'] %> on <%= book['date'] %></li>
+<div class="container-fluid">
+  <% for row in @books['rows'] %>
+    <div class="book-list-item row">
+      <% for book in row['books'] %>
+        <div class="col-sm">
+          <div class="book-cel">
+            <div class="row"><img src="Sample_image.jpg" alt="Sample Book Cover that we are using repeatedly" height="180" width="140"></div>
+            <div class="title row"><%= book['title'] %></div>
+            <div class="type row"><%= book['type'] %></div>
+            <div class="row">Publisher <%= book['publisher'] %></div>
+            <div class="row">Date of Publication <%= book['year'] %></div>
+            <div class="row">ISBN <%= book['isbn'] %></div>
+          </div>
+        </div>
+      <% end %>
+    </div>
   <% end %>
-</ul>
+</div>
