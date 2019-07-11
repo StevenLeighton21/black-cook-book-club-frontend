@@ -19,42 +19,48 @@ class HomeController < ApplicationController
               'publisher' => 'I am a publisher',
               'year' => '2008',
               'isbn' => '123456',
-              'type' => 'paperback'
+              'type' => 'paperback',
+              'price' => '£0.00'
             },
             {
               'title' => 'hello I am also book',
               'publisher' => 'I am a great publisher',
               'year' => '2019',
               'isbn' => '123456',
-              'type' => 'paperback'
+              'type' => 'paperback',
+              'price' => '£1.00'
             },
             {
               'title' => 'hello I am a book',
               'publisher' => 'I am a publisher',
               'year' => '2008',
               'isbn' => '123456',
-              'type' => 'paperback'
+              'type' => 'paperback',
+              'price' => '£2.00'
             },
             {
               'title' => 'hello I am also book',
               'publisher' => 'I am a great publisher',
               'year' => '2019',
               'isbn' => '123456',
-              'type' => 'paperback'
+              'type' => 'paperback',
+              'price' => '£3.00'
             },
             {
               'title' => 'hello I am a book',
               'publisher' => 'I am a publisher',
               'year' => '2008',
               'isbn' => '123456',
-              'type' => 'paperback'
+              'type' => 'paperback',
+              'price' => '£4.00'
             },
             {
               'title' => 'hello I am also book',
               'publisher' => 'I am a great publisher',
               'year' => '2019',
               'isbn' => '123456',
-              'type' => 'paperback'
+              'type' => 'paperback',
+              'price' => '£5.00'
             }
           ]
         },
@@ -66,42 +72,48 @@ class HomeController < ApplicationController
                'publisher' => 'I am a publisher',
                'year' => '2008',
                'isbn' => '123456',
-               'type' => 'paperback'
+               'type' => 'paperback',
+               'price' => '£6.00'
              },
              {
                'title' => 'hello I am also a book',
                'publisher' => 'another publisher',
                'year' => '2009',
                'isbn' => '0987654',
-               'type' => 'paperback'
+               'type' => 'paperback',
+               'price' => '£7.00'
              },
              {
                'title' => 'hello I am also a book1',
                'publisher' => 'another publisher1',
                'year' => '2011',
                'isbn' => '09876541',
-               'type' => 'paperback'
+               'type' => 'paperback',
+               'price' => '£8.00'
              },
              {
                'title' => 'hello I am also a book2',
                'publisher' => 'another publisher2',
                'year' => '2012',
                'isbn' => '09876542',
-               'type' => 'paperback'
+               'type' => 'paperback',
+               'price' => '£9.00'
              },
              {
                'title' => 'hello I am also a book3',
                'publisher' => 'another publisher3',
                'year' => '2013',
                'isbn' => '09876543',
-               'type' => 'paperback'
+               'type' => 'paperback',
+               'price' => '£10.00'
              },
              {
                'title' => 'hello I am also a book4',
                'publisher' => 'another publisher4',
                'year' => '2014',
                'isbn' => '09876544',
-               'type' => 'paperback'
+               'type' => 'paperback',
+               'price' => '£11.00'
              },
         ]
         }
