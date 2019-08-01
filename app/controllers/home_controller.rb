@@ -16,51 +16,45 @@ class HomeController < ApplicationController
           [ # first book in the first row
             {
               'title' => 'hello I am a book',
-              'publisher' => 'I am a publisher',
+              'publisher' => 'Test publisher1',
               'year' => '2008',
               'isbn' => '123456',
               'type' => 'paperback',
-              'price' => '£0.00'
             },
             {
               'title' => 'hello I am also book',
-              'publisher' => 'I am a great publisher',
+              'publisher' => 'Test publisher2',
               'year' => '2019',
               'isbn' => '123456',
               'type' => 'paperback',
-              'price' => '£1.00'
             },
             {
               'title' => 'hello I am a book',
-              'publisher' => 'I am a publisher',
+              'publisher' => 'Test publisher3',
               'year' => '2008',
               'isbn' => '123456',
               'type' => 'paperback',
-              'price' => '£2.00'
             },
             {
               'title' => 'hello I am also book',
-              'publisher' => 'I am a great publisher',
+              'publisher' => 'Test publisher4',
               'year' => '2019',
               'isbn' => '123456',
               'type' => 'paperback',
-              'price' => '£3.00'
             },
             {
               'title' => 'hello I am a book',
-              'publisher' => 'I am a publisher',
+              'publisher' => 'Test publisher5',
               'year' => '2008',
               'isbn' => '123456',
               'type' => 'paperback',
-              'price' => '£4.00'
             },
             {
               'title' => 'hello I am also book',
-              'publisher' => 'I am a great publisher',
+              'publisher' => 'Test publisher6',
               'year' => '2019',
               'isbn' => '123456',
               'type' => 'paperback',
-              'price' => '£5.00'
             }
           ]
         },
@@ -69,51 +63,45 @@ class HomeController < ApplicationController
           [ #first book in the second row
              {
                'title' => 'hello I am a book',
-               'publisher' => 'I am a publisher',
+               'publisher' => 'Test publisher7',
                'year' => '2008',
                'isbn' => '123456',
                'type' => 'paperback',
-               'price' => '£6.00'
              },
              {
                'title' => 'hello I am also a book',
-               'publisher' => 'another publisher',
+               'publisher' => 'Test publisher8',
                'year' => '2009',
                'isbn' => '0987654',
                'type' => 'paperback',
-               'price' => '£7.00'
              },
              {
                'title' => 'hello I am also a book1',
-               'publisher' => 'another publisher1',
+               'publisher' => 'Test publisher9',
                'year' => '2011',
                'isbn' => '09876541',
                'type' => 'paperback',
-               'price' => '£8.00'
              },
              {
                'title' => 'hello I am also a book2',
-               'publisher' => 'another publisher2',
+               'publisher' => 'Test publisher10',
                'year' => '2012',
                'isbn' => '09876542',
                'type' => 'paperback',
-               'price' => '£9.00'
              },
              {
                'title' => 'hello I am also a book3',
-               'publisher' => 'another publisher3',
+               'publisher' => 'Test publisher11',
                'year' => '2013',
                'isbn' => '09876543',
                'type' => 'paperback',
-               'price' => '£10.00'
              },
              {
                'title' => 'hello I am also a book4',
-               'publisher' => 'another publisher4',
+               'publisher' => 'Test publisher12',
                'year' => '2014',
                'isbn' => '09876544',
                'type' => 'paperback',
-               'price' => '£11.00'
              },
         ]
         }
