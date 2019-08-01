@@ -5,12 +5,11 @@
         <div class="col-sm">
           <div class="book-cel">
             <div class="row"><img src="Sample_image-3.jpg" alt="Sample Book Cover that we are using repeatedly" height="180" width="140"></div>
-            <div class="title row"><%= book['Title'] %></div>
-            <div class="type row"><%= book['Type'] %></div>
-            <div class="row">Publisher <%= book['Publisher'] %></div>
-            <div class="row">Date of Publication <%= book['Year'] %></div>
-            <div class="row">ISBN <%= book['ISBN'] %></div>
-            <div class="row">Price <%= book['Price'] %></div>
+            <div class="title row"><%= book['title'] %></div>
+            <div class="type row"><%= book['type'] %></div>
+            <div class="row"><%= book['publisher'] %></div>
+            <div class="row"><%= book['year'] %></div>
+            <div class="row">ISBN <%= book['isbn'] %></div>
           </div>
         </div>
       <% end %>
